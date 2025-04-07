@@ -2,6 +2,8 @@ import * as dotenv from 'dotenv';
 import { scrapeWebpage } from './services/scraper';
 import { createPresentation, getShareableLink } from './services/alai';
 import { authenticate } from './services/auth';
+import { SlideData } from './services/llm';
+import { generateSlidesFromMarkdown } from './services/llm';
 
 dotenv.config();
 
@@ -19,11 +21,14 @@ async function main() {
     // Step 1: Scrape the webpage
     const webpageContent = await scrapeWebpage(url);
     
+    // Step 2.1: Generate slides from the scraped content
+    const slideData = await generateSlidesFromMarkdown(webpageContent,url);
+
     // Step 2: Authenticate with Alai
     const authToken = await authenticate();
     
     // Step 3: Create presentation
-    const presentationId = await createPresentation(webpageContent, authToken);
+    const presentationId = await createPresentation(slideData, authToken);
     
     // Step 4: Get shareable link
     const shareableLink = await getShareableLink(presentationId, authToken);

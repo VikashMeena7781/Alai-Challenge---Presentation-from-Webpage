@@ -1,0 +1,98 @@
+[
+  {
+    "layout": "TITLE_AND_BODY_LAYOUT",
+    "title": "Introduction to HTML Tables",
+    "content": {
+      "body": "- HTML tables organize data into rows and columns.\n- Essential for structuring tabular information on websites.\n- Composed of cells within rows and columns.\n- Utilize various tags for different table elements (e.g., <table>, <tr>, <td>, <th>).\n- Styling and functionality can be enhanced with CSS and JavaScript."
+    }
+  },
+  {
+    "layout": "TITLE_AND_BODY_LAYOUT",
+    "title": "Basic Table Structure",
+    "content": {
+      "body": "- `<table>`: The container for the entire table.\n- `<tr>`: Defines a table row; each row contains one or more cells.\n- `<td>`: Represents a standard table data cell.\n- `<th>`: Represents a table header cell; typically bold and centered.\n- Example: <table><tr><th>Header 1</th><th>Header 2</th></tr><tr><td>Data 1</td><td>Data 2</td></tr></table>"
+    }
+  },
+  {
+    "layout": "TITLE_AND_TABLE_LAYOUT",
+    "title": "HTML Table Tags",
+    "content": {
+      "headers": [
+        "Tag",
+        "Description"
+      ],
+      "rows": [
+        [
+          "<a href=\"https://www.w3schools.com/tags/tag_table.asp\"><table></a>",
+          "Defines a table"
+        ],
+        [
+          "<a href=\"https://www.w3schools.com/tags/tag_th.asp\"><th></a>",
+          "Defines a header cell"
+        ],
+        [
+          "<a href=\"https://www.w3schools.com/tags/tag_tr.asp\"><tr></a>",
+          "Defines a row"
+        ],
+        [
+          "<a href=\"https://www.w3schools.com/tags/tag_td.asp\"><td></a>",
+          "Defines a cell"
+        ],
+        [
+          "<a href=\"https://www.w3schools.com/tags/tag_caption.asp\"><caption></a>",
+          "Defines a table caption"
+        ],
+        [
+          "<a href=\"https://www.w3schools.com/tags/tag_colgroup.asp\"><colgroup></a>",
+          "Specifies a group of columns"
+        ],
+        [
+          "<a href=\"https://www.w3schools.com/tags/tag_col.asp\"><col></a>",
+          "Specifies column properties"
+        ],
+        [
+          "<a href=\"https://www.w3schools.com/tags/tag_thead.asp\"><thead></a>",
+          "Groups header content"
+        ],
+        [
+          "<a href=\"https://www.w3schools.com/tags/tag_tbody.asp\"><tbody></a>",
+          "Groups body content"
+        ],
+        [
+          "<a href=\"https://www.w3schools.com/tags/tag_tfoot.asp\"><tfoot></a>",
+          "Groups footer content"
+        ]
+      ]
+    }
+  },
+  {
+    "layout": "IMAGE_ONLY_LAYOUT",
+    "title": "HTML Table Example",
+    "content": {
+      "imageUrl": "https://www.w3schools.com/html/images/14_html_tables.png",
+      "imageCaption": "A visual representation of a sample HTML table."
+    }
+  },
+  {
+    "layout": "TITLE_AND_BODY_LAYOUT",
+    "title": "Advanced Table Features",
+    "content": {
+      "body": "- `colspan` and `rowspan` attributes merge cells.\n- Table styling with CSS for customization (borders, colors, padding).\n- JavaScript for dynamic table manipulation (sorting, filtering, adding rows).\n- Responsive design for optimal viewing across devices.\n- Accessibility considerations for users with disabilities."
+    }
+  },
+  {
+    "layout": "TITLE_AND_BODY_LAYOUT",
+    "title": "Learn More & Resources",
+    "content": {
+      "body": "- **Styling Tables:** <a href=\"https://www.w3schools.com/css/css_table.asp\">https://www.w3schools.com/css/css_table.asp</a>\n- **Filter Table:** <a href=\"https://www.w3schools.com/howto/howto_js_filter_table.asp\">https://www.w3schools.com/howto/howto_js_filter_table.asp</a>\n- **Sort Table:** <a href=\"https://www.w3schools.com/howto/howto_js_sort_table.asp\">https://www.w3schools.com/howto/howto_js_sort_table.asp</a>\n- **Responsive Table:** <a href=\"https://www.w3schools.com/howto/howto_css_table_responsive.asp\">https://www.w3schools.com/howto/howto_css_table_responsive.asp</a>\n- **Zebra Striped Table:** <a href=\"https://www.w3schools.com/howto/howto_css_table_zebra.asp\">https://www.w3schools.com/howto/howto_css_table_zebra.asp</a>"
+    }
+  },
+  {
+    "layout": "IMAGE_ONLY_LAYOUT",
+    "title": "W3Schools Video Tutorial",
+    "content": {
+      "imageUrl": "https://www.w3schools.com/html/images/yt_logo_rgb_dark.png",
+      "imageCaption": "Watch our comprehensive video tutorial on YouTube!"
+    }
+  }
+]

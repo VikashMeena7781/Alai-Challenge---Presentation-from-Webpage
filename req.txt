@@ -1,5 +1,6 @@
 npm install uuid
 npm install --save-dev @types/uuid
+npm install @google/generative-ai
 
 npm init -y
 npm install axios dotenv cheerio typescript ts-node @types/node
