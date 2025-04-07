@@ -1,0 +1,7 @@
+npm install uuid
+npm install --save-dev @types/uuid
+
+npm init -y
+npm install axios dotenv cheerio typescript ts-node @types/node
+npx tsc --init
+npm start https://example.com
